@@ -1,8 +1,8 @@
 
 import sys
-
+import time
 from PyQt5.QtWidgets import QWidget, QApplication, QGridLayout, QGroupBox, QFormLayout, QPushButton, QLabel, QLineEdit, \
-    QVBoxLayout, QTableWidget
+    QVBoxLayout, QTableWidget,QProgressBar
 
 
 class app_eval(QWidget):
@@ -17,6 +17,7 @@ class app_eval(QWidget):
         self.setLayout(grid)
 
 
+
 def input_data(self):
     qb = QGroupBox("input rquired DATA")
     qf = QFormLayout()
@@ -27,13 +28,26 @@ def input_data(self):
     T = QLabel("durée d\'observation")
     TF = QLineEdit()
     start = QPushButton("Start")
+    progbar = QProgressBar()
+
+   # start.clicked.connect(lambda n=int(TF.text()) : progbar.setValue(n))
+
+
+
     qf.addRow(nbr,nbrF)
     qf.addRow(tht,thtF)
     qf.addRow(T,TF)
     qf.addRow(start)
+    qf.addRow(progbar)
     qb.setLayout(qf)
 
+
+
+
     return qb
+
+
+
 
 def view_data(self):
     qb = QGroupBox("View DATA")
