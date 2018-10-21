@@ -11,64 +11,58 @@ class app_eval(QWidget):
         super(app_eval,self).__init__()
         self.setGeometry(100, 200, 355, 500)
         self.setWindowTitle("evaluation de perfermance ")
-        grid = QGridLayout()
-        grid.addWidget(input_data(self),0,0)
-        grid.addWidget(view_data(self),1,0)
-        self.setLayout(grid)
+        self.grid = QGridLayout()
+        #-------------------------------------------------
+        self.qb = QGroupBox("input rquired DATA")
+        self.qf = QFormLayout()
+        self.nbr = QLabel("Nombre de requete")
+        self.nbrF = QLineEdit("0")
+        self.tht = QLabel("Thinking time")
+        self.thtF = QLineEdit("0")
+        self.T = QLabel("durée d\'observation")
+        self.TF = QLineEdit("0")
+        self.start = QPushButton("Start")
+        self.progbar = QProgressBar()
+        self.start.clicked.connect(lambda: progress(self,int(self.TF.text())))
+        self.x = int(self.TF.text())
+        self.qf.addRow(self.nbr, self.nbrF)
+        self.qf.addRow(self.tht, self.thtF)
+        self.qf.addRow(self.T, self.TF)
+        self.qf.addRow(self.start)
+        self.qf.addRow(self.progbar)
+        self.qb.setLayout(self.qf)
+        #-------------------------------------------------
+        self.qb1 = QGroupBox("View DATA")
+        self.qV = QVBoxLayout()
+        self.table = QTableWidget()
+        self.table.setRowCount(6)
+        self.table.setColumnCount(6)
+        self.table.setHorizontalHeaderLabels(["BTcpu1", "BTdisk1", "BTcpu2", "BTdisk2", "BTcpu3", "BTdisk3"])
+
+        self.table.resizeColumnsToContents()
+
+        self.AsymTR = QPushButton("Asymptote Temps de Reponse")
+        self.AsymDS = QPushButton("Asymptote Debit du systeme")
+
+        self.qV.addWidget(self.table)
+        self.qV.addWidget(self.AsymTR)
+        self.qV.addWidget(self.AsymDS)
+
+        self.qb1.setLayout(self.qV)
+        #-------------------------------------------------
+        self.grid.addWidget(self.qb,0,0)
+        self.grid.addWidget(self.qb1,1,0)
+        self.setLayout(self.grid)
+
+def progress(self,n):
+    for i in range(n+1):
+        time.sleep(1)
+        x=(i/n)*100
+
+        self.progbar.setValue(x)
 
 
 
-def input_data(self):
-    qb = QGroupBox("input rquired DATA")
-    qf = QFormLayout()
-    nbr = QLabel("Nombre de requete")
-    nbrF = QLineEdit()
-    tht = QLabel("Thinking time")
-    thtF = QLineEdit()
-    T = QLabel("durée d\'observation")
-    TF = QLineEdit()
-    start = QPushButton("Start")
-    progbar = QProgressBar()
-
-   # start.clicked.connect(lambda n=int(TF.text()) : progbar.setValue(n))
-
-
-
-    qf.addRow(nbr,nbrF)
-    qf.addRow(tht,thtF)
-    qf.addRow(T,TF)
-    qf.addRow(start)
-    qf.addRow(progbar)
-    qb.setLayout(qf)
-
-
-
-
-    return qb
-
-
-
-
-def view_data(self):
-    qb = QGroupBox("View DATA")
-    qV = QVBoxLayout()
-    table = QTableWidget()
-    table.setRowCount(6)
-    table.setColumnCount(6)
-    table.setHorizontalHeaderLabels(["BTcpu1","BTdisk1","BTcpu2","BTdisk2","BTcpu3","BTdisk3"])
-
-    table.resizeColumnsToContents()
-
-    AsymTR = QPushButton("Asymptote Temps de Reponse")
-    AsymDS = QPushButton("Asymptote Debit du systeme")
-
-    qV.addWidget(table)
-    qV.addWidget(AsymTR)
-    qV.addWidget(AsymDS)
-
-    qb.setLayout(qV)
-
-    return qb
 
 
 
