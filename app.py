@@ -79,7 +79,7 @@ def setDaTa(self):
         for j in range(0,6):
               x= np.random.rand()
 
-              self.table.setItem(i, j, QTableWidgetItem(str(x)))
+              self.table.setItem(i, 0, QTableWidgetItem(str(x)))
 
 def plot_data():
     plt.xlim(50)
