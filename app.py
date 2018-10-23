@@ -1,7 +1,14 @@
+#####################################################
+#              Auther : hatem ben tayeb             #
+#              Email : hatemtayeb2@gmail.com        #
+#              Script : eval_perform                #
+#              Subjet : evaluation de performance   #
+#####################################################
+
+
 
 import sys
 import time
-import subprocess as sub
 import os
 import matplotlib.pyplot as plt
 from PyQt5.QtWidgets import QWidget, QApplication, QGridLayout, QGroupBox, QFormLayout, QPushButton, QLabel, QLineEdit, \
