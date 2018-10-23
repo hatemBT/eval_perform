@@ -1,30 +1,30 @@
-4+0 enregistrements lus
-4+0 enregistrements écrits
-2048000 octets (2,0 MB, 2,0 MiB) copiés, 0,00411078 s, 498 MB/s
-4+0 enregistrements lus
-4+0 enregistrements écrits
-2048000 octets (2,0 MB, 2,0 MiB) copiés, 0,00844439 s, 243 MB/s
-4+0 enregistrements lus
-4+0 enregistrements écrits
-2048000 octets (2,0 MB, 2,0 MiB) copiés, 0,0112639 s, 182 MB/s
-4+0 enregistrements lus
-4+0 enregistrements écrits
-2048000 octets (2,0 MB, 2,0 MiB) copiés, 0,00475109 s, 431 MB/s
-4+0 enregistrements lus
-4+0 enregistrements écrits
-2048000 octets (2,0 MB, 2,0 MiB) copiés, 0,00547457 s, 374 MB/s
-4+0 enregistrements lus
-4+0 enregistrements écrits
-2048000 octets (2,0 MB, 2,0 MiB) copiés, 0,0044814 s, 457 MB/s
-4+0 enregistrements lus
-4+0 enregistrements écrits
-2048000 octets (2,0 MB, 2,0 MiB) copiés, 0,00449285 s, 456 MB/s
-4+0 enregistrements lus
-4+0 enregistrements écrits
-2048000 octets (2,0 MB, 2,0 MiB) copiés, 0,00853471 s, 240 MB/s
-4+0 enregistrements lus
-4+0 enregistrements écrits
-2048000 octets (2,0 MB, 2,0 MiB) copiés, 0,0045179 s, 453 MB/s
-4+0 enregistrements lus
-4+0 enregistrements écrits
-2048000 octets (2,0 MB, 2,0 MiB) copiés, 0,00449972 s, 455 MB/s
+6+0 enregistrements lus
+6+0 enregistrements écrits
+3072000 octets (3,1 MB, 2,9 MiB) copiés, 0,308112 s, 10,0 MB/s
+6+0 enregistrements lus
+6+0 enregistrements écrits
+3072000 octets (3,1 MB, 2,9 MiB) copiés, 0,302909 s, 10,1 MB/s
+6+0 enregistrements lus
+6+0 enregistrements écrits
+3072000 octets (3,1 MB, 2,9 MiB) copiés, 0,303732 s, 10,1 MB/s
+6+0 enregistrements lus
+6+0 enregistrements écrits
+3072000 octets (3,1 MB, 2,9 MiB) copiés, 0,305469 s, 10,1 MB/s
+6+0 enregistrements lus
+6+0 enregistrements écrits
+3072000 octets (3,1 MB, 2,9 MiB) copiés, 0,30289 s, 10,1 MB/s
+6+0 enregistrements lus
+6+0 enregistrements écrits
+3072000 octets (3,1 MB, 2,9 MiB) copiés, 0,291212 s, 10,5 MB/s
+6+0 enregistrements lus
+6+0 enregistrements écrits
+3072000 octets (3,1 MB, 2,9 MiB) copiés, 0,30704 s, 10,0 MB/s
+6+0 enregistrements lus
+6+0 enregistrements écrits
+3072000 octets (3,1 MB, 2,9 MiB) copiés, 0,301665 s, 10,2 MB/s
+6+0 enregistrements lus
+6+0 enregistrements écrits
+3072000 octets (3,1 MB, 2,9 MiB) copiés, 0,306348 s, 10,0 MB/s
+6+0 enregistrements lus
+6+0 enregistrements écrits
+3072000 octets (3,1 MB, 2,9 MiB) copiés, 0,308649 s, 10,0 MB/s

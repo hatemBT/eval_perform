@@ -83,7 +83,7 @@ def clearData():
 
 def progress(self,n):
     for i in range(1,n+1):
-        time.sleep(1)
+        time.sleep(int(self.thtF.text()))
         x=(i/n)*100
         self.progbar.setValue(x)
         os.system(os.path.join("test","disk_cpu.sh")+" "+self.blkF.text()+" "+ self.nbrF.text())
