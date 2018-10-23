@@ -90,27 +90,79 @@ def progress(self,n):
 
 
 def setDaTa(self):
-    cp=0
-    with open('finaldisk.csv','r') as f:
-        xx= f.read().split(',')
-        for i in xx:
 
-              if i != None:
-                  self.table.setItem(cp, 1, QTableWidgetItem(str(i)))
-                  cp += 1
-              else:
-                  pass
-    cp1 = 0
-    with open('finalcpu.csv', 'r') as f:
+    if(int(self.blkF.text())==1):
+        cp=0
+        with open('finaldisk.csv','r') as f:
+            xx= f.read().split(',')
+            for i in xx:
+
+                  if i != None:
+                      self.table.setItem(cp, 1, QTableWidgetItem(str(i)))
+                      cp += 1
+                  else:
+                      pass
+
+            cp1 = 0
+            with open('finalcpu.csv', 'r') as f:
+                xx = f.read().split(',')
+                for i in xx:
+
+                    if i != None:
+                        self.table.setItem(cp1, 0, QTableWidgetItem(str(i)))
+
+                        cp1 += 1
+                    else:
+                        pass
+
+    elif(int(self.blkF.text())==2):
+        cp2 = 0
+        with open('finaldisk.csv', 'r') as f:
             xx = f.read().split(',')
             for i in xx:
 
                 if i != None:
-                    self.table.setItem(cp1, 0, QTableWidgetItem(str(i)))
-
-                    cp1 += 1
+                    self.table.setItem(cp2, 3, QTableWidgetItem(str(i)))
+                    cp2 += 1
                 else:
                     pass
+
+            cp3 = 0
+            with open('finalcpu.csv', 'r') as f:
+                xx = f.read().split(',')
+                for i in xx:
+
+                    if i != None:
+                        self.table.setItem(cp3, 2, QTableWidgetItem(str(i)))
+
+                        cp3 += 1
+                    else:
+                        pass
+
+    else:
+        cp4 = 0
+        with open('finaldisk.csv', 'r') as f:
+            xx = f.read().split(',')
+            for i in xx:
+
+                if i != None:
+                    self.table.setItem(cp4, 5, QTableWidgetItem(str(i)))
+                    cp4 += 1
+                else:
+                    pass
+
+            cp5 = 0
+            with open('finalcpu.csv', 'r') as f:
+                xx = f.read().split(',')
+                for i in xx:
+
+                    if i != None:
+                        self.table.setItem(cp5, 4, QTableWidgetItem(str(i)))
+
+                        cp5 += 1
+                    else:
+                        pass
+
 
 def plot_data():
     plt.xlim(50)

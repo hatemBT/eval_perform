@@ -4,7 +4,7 @@ if [[ $# -eq 2 ]]
 then
 for i in seq $2
 do
-( time dd if=/dev/zero of=hatem.txt bs=512000 count=$1 2>> dd.txt ) 2>> time.txt
+( time dd if=/dev/zero of=hatem.txt bs=512000 count=$1 oflag=dsync 2>> dd.txt ) 2>> time.txt
 sleep 1
 done
 cat dd.txt | grep -i octets | cut -d' ' -f7  |tr ',' '.'> resdisk.txt
