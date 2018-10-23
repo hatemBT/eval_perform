@@ -1,3 +1,11 @@
+#####################################################
+#              Auther : hatem ben tayeb             #
+#              Email : hatemtayeb2@gmail.com        #
+#              Script : disk_cpu.sh               #
+#              Subjet : evaluation de performance   #
+#####################################################
+
+
 #!/bin/bash
 
 if [[ $# -eq 2 ]]

@@ -29,7 +29,7 @@ class app_eval(QWidget):
         self.nbrF = QLineEdit("1")
         self.tht = QLabel("Thinking time")
         self.thtF = QLineEdit("1")
-        self.T = QLabel("Nurée d\'observation")
+        self.T = QLabel("Durée d\'observation")
         self.TF = QLineEdit("1")
         self.blk = QLabel("Nombre de bloque")
         self.blkF = QLineEdit("1")
