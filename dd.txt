@@ -1,0 +1,60 @@
+2+0 enregistrements lus
+2+0 enregistrements écrits
+1024000 octets (1,0 MB, 1000 KiB) copiés, 0,00635314 s, 161 MB/s
+2+0 enregistrements lus
+2+0 enregistrements écrits
+1024000 octets (1,0 MB, 1000 KiB) copiés, 0,00640739 s, 160 MB/s
+2+0 enregistrements lus
+2+0 enregistrements écrits
+1024000 octets (1,0 MB, 1000 KiB) copiés, 0,00845836 s, 121 MB/s
+2+0 enregistrements lus
+2+0 enregistrements écrits
+1024000 octets (1,0 MB, 1000 KiB) copiés, 0,00655982 s, 156 MB/s
+2+0 enregistrements lus
+2+0 enregistrements écrits
+1024000 octets (1,0 MB, 1000 KiB) copiés, 0,00333078 s, 307 MB/s
+2+0 enregistrements lus
+2+0 enregistrements écrits
+1024000 octets (1,0 MB, 1000 KiB) copiés, 0,0059226 s, 173 MB/s
+2+0 enregistrements lus
+2+0 enregistrements écrits
+1024000 octets (1,0 MB, 1000 KiB) copiés, 0,00330399 s, 310 MB/s
+2+0 enregistrements lus
+2+0 enregistrements écrits
+1024000 octets (1,0 MB, 1000 KiB) copiés, 0,00823746 s, 124 MB/s
+2+0 enregistrements lus
+2+0 enregistrements écrits
+1024000 octets (1,0 MB, 1000 KiB) copiés, 0,00375418 s, 273 MB/s
+2+0 enregistrements lus
+2+0 enregistrements écrits
+1024000 octets (1,0 MB, 1000 KiB) copiés, 0,00523327 s, 196 MB/s
+2+0 enregistrements lus
+2+0 enregistrements écrits
+1024000 octets (1,0 MB, 1000 KiB) copiés, 0,00694794 s, 147 MB/s
+2+0 enregistrements lus
+2+0 enregistrements écrits
+1024000 octets (1,0 MB, 1000 KiB) copiés, 0,00785604 s, 130 MB/s
+2+0 enregistrements lus
+2+0 enregistrements écrits
+1024000 octets (1,0 MB, 1000 KiB) copiés, 0,00609099 s, 168 MB/s
+2+0 enregistrements lus
+2+0 enregistrements écrits
+1024000 octets (1,0 MB, 1000 KiB) copiés, 0,00634147 s, 161 MB/s
+2+0 enregistrements lus
+2+0 enregistrements écrits
+1024000 octets (1,0 MB, 1000 KiB) copiés, 0,00585665 s, 175 MB/s
+2+0 enregistrements lus
+2+0 enregistrements écrits
+1024000 octets (1,0 MB, 1000 KiB) copiés, 0,00927114 s, 110 MB/s
+2+0 enregistrements lus
+2+0 enregistrements écrits
+1024000 octets (1,0 MB, 1000 KiB) copiés, 0,00623829 s, 164 MB/s
+2+0 enregistrements lus
+2+0 enregistrements écrits
+1024000 octets (1,0 MB, 1000 KiB) copiés, 0,00670758 s, 153 MB/s
+2+0 enregistrements lus
+2+0 enregistrements écrits
+1024000 octets (1,0 MB, 1000 KiB) copiés, 0,00330912 s, 309 MB/s
+2+0 enregistrements lus
+2+0 enregistrements écrits
+1024000 octets (1,0 MB, 1000 KiB) copiés, 0,00927382 s, 110 MB/s
